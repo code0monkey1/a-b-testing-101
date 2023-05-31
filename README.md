@@ -20,6 +20,18 @@ In this way we can be sure the variation in data was only because of tha SINGLE 
 
 `Eg : If we change the size of a `[ Buy Now ]` button , and if the sales went up by 25% , we can conclusively say that increasing the size of the button , in itself , had that effect on the sales`
 
+> Question : How long should you run an A / B Test ? 
+
+_Answer : Well, that answer depends on 2 factors_   
+  + How much traffic do you need to measure it effectively.    
+  + What is the minimum change that you want to detect ? . 
+ 
+ Generally, the more GRANULAR the change you want to detect, the LONGER you need.   
+
+Eg :    If you want to detect a 1% increase in sales , you need to run the experiment over 30 days.    
+V.S    
+If you want a 5% increase detected , then you just need to run it 1 or 2 days .
+
 ---
 #### # Experiments as a form of Validation
 
@@ -35,9 +47,15 @@ There are `4 metrics` which are used to evaluate the results of an experiment yo
     + These are metrics , that hint towards the experiment going in the right/wrong direction 
     + Eg. If you take Amazon , and if while conduction an experiment you find there there is a decrease in the number of returns / cancellations and lesser number of customer support calls etc. , then this points towards your primary metric being met , in the near future.
 
-1. **Health Metric** :
+1. **Health Metric** : 
+   + This is generally a measure of how the application ( website ) is performing because of the experiment.
+   + Eg :  Are there more errors on the backend ?   Has the page load time increased ? etc ...
 
 1. **Binomial Goals** :
+    + These are metrics that are tracked when any experiment is being performed , and are not specific to any experiment
+    + These are metrics that can hint , or provide info about any other parameters being effected because of an experiment.
+    + They are generally YES / NO tests . 
+    + Eg. Has the bounce rate of the page increased after the start of the experiment ( Yes / No )
 
 
 ---
