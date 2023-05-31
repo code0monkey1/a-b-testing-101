@@ -75,6 +75,7 @@ There are `4 metrics` which are used to evaluate the results of an experiment yo
 #### # Hypothesis generation and measurement
 
 
-> What can be achieved my hypothesizing , and thereby running experiments to verify a hypothesis w.r.t Business Success ? 
+> Question : What can be achieved my hypothesizing , and thereby running experiments to verify a hypothesis w.r.t Business Success ? 
 
-> 
+  _If the hypothesis is based on a belief that  making a `specific change` will financially benefit the company , then it's worth running experiments to validate the hypothesis, and thereby increasing the revenue of the company._
+
