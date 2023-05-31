@@ -21,10 +21,12 @@ In this way we can be sure the variation in data was only because of tha SINGLE 
 `Eg : If we change the size of a `[ Buy Now ]` button , and if the sales went up by 25% , we can conclusively say that increasing the size of the button , in itself , had that effect on the sales`
 
 ---
+#### # Experiments as a form of Validation
 
 
 
-##### Hypothesis generation and measurement
+---
+#### # Hypothesis generation and measurement
 
 
 > What can be achieved my hypothesizing , and thereby running experiments to verify a hypothesis w.r.t Business Success ? 
