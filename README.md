@@ -32,6 +32,12 @@ Eg :    If you want to detect a 1% increase in sales , you need to run the exper
 V.S    
 If you want a 5% increase detected , then you just need to run it 1 or 2 days .
 
+---
+
+[A/B test runtime calculator](https://www.nabler.com/ab-test-duration-calculator/ 'Calculate the time required to run an A/B test experiment')
+
+---
+
 ![Granular Change](./pics/a-b-test-1-day.jpg "granular change")
 
 ![Big Change](./pics/a-b-test-5-days.jpg "big change")
