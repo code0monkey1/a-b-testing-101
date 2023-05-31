@@ -23,6 +23,21 @@ In this way we can be sure the variation in data was only because of tha SINGLE 
 ---
 #### # Experiments as a form of Validation
 
+There are `4 metrics` which are used to evaluate the results of an experiment you conduct w.r.t your product 
+
+1. **Primary Metric ( Generally the North Star Metric )** :
+    
+   + Eg. No. of Likes / No. of Subscribers / Sales
+   + If the change in this metric is STATISTICALLY SIGNIFICANT , then you can conclusively say whether the impact of the change was Positive or Negative .
+
+1. **Supporting Metric** :
+    + There can be only 1 primary metric, but there can be multiple supporting metrics .
+    + These are metrics , that hint towards the experiment going in the right/wrong direction 
+    + Eg. If you take Amazon , and if while conduction an experiment you find there there is a decrease in the number of returns / cancellations and lesser number of customer support calls etc. , then this points towards your primary metric being met , in the near future.
+
+1. **Health Metric** :
+
+1. **Binomial Goals** :
 
 
 ---
