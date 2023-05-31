@@ -32,6 +32,8 @@ Eg :    If you want to detect a 1% increase in sales , you need to run the exper
 V.S    
 If you want a 5% increase detected , then you just need to run it 1 or 2 days .
 
+_( Generally it's a good practice the run an A/B experiment for a period of 2 weeks )_
+
 ---
 
 [A/B test runtime calculator](https://www.nabler.com/ab-test-duration-calculator/ 'Calculate the time required to run an A/B test experiment')
