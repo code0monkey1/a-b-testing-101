@@ -79,3 +79,6 @@ There are `4 metrics` which are used to evaluate the results of an experiment yo
 
   _If the hypothesis is based on a belief that  making a `specific change` will financially benefit the company , then it's worth running experiments to validate the hypothesis, and thereby increasing the revenue of the company._
 
+> Question : What is the template to formulate a `good hypothesis` ?? 
+
+_Answer : **Based on [evidence] , we believe that if we change [proposed_change] for the [customer_segment] ,it will [impact_hypothesised]. This would be good for our business because an increase in [primary_metric] is an increase in [business_kpi]**_
