@@ -70,7 +70,7 @@ There are `4 metrics` which are used to evaluate the results of an experiment yo
     + They are generally YES / NO tests . 
     + Eg. Has the bounce rate of the page increased after the start of the experiment ( Yes / No )
 
-
+>
 ---
 #### # Hypothesis generation and measurement
 
@@ -81,4 +81,8 @@ There are `4 metrics` which are used to evaluate the results of an experiment yo
 
 > Question : What is the template to formulate a `good hypothesis` ?? 
 
-_Answer : **Based on [evidence] , we believe that if we change [proposed_change] for the [customer_segment] ,it will [impact_hypothesised]. This would be good for our business because an increase in [primary_metric] is an increase in [business_kpi]**_
+_Answer : **Based on [evidence] , we believe that if we change [proposed_change] for [customer_segment] ,it will [impact_hypothesised]. This would be good for our business because an increase in [primary_metric] is an increase in [business_kpi]**_
+
+
+Eg: Based on [ the increase in user signup, using oauth on various platforms] , we believe that if we change [ the signup process to an OAuth only signup process using GitHub login] for [ Developers ] , it will [ lead an increase in the number of signups ]. This would be good for our business , because an increase in [ user signups ] is an increase in [ website sales ] .
+
