@@ -70,7 +70,11 @@ There are `4 metrics` which are used to evaluate the results of an experiment yo
     + They are generally YES / NO tests . 
     + Eg. Has the bounce rate of the page increased after the start of the experiment ( Yes / No )
 
->
+> When multiple experiments are running at the same time , does one experiment not affect the results of another test which is running in parallel  ? 
+
+_Well , not really if a lot of traffic is involved in the evaluation . For example , if for a button , we run an experiment in which we change it's color to  `yellow` and in another experiment running in parallel , we change the text to `nunito` , we will see , that on an average , what effect an individual experiment had on the metrics. And this is because , a  segment of the traffic would have seen just that 1 experiment change._
+
+
 ---
 #### # Hypothesis generation and measurement
 
