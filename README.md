@@ -101,9 +101,9 @@ Eg: Based on [ the increase in user signup, using oauth on various platforms] , 
 
 ---
 
-#### # Example of an A/B Test 
+### # Example of an A/B Test 
 
-##### # Being Conducted By Amazon 
+##### # An Experiment Conducted at Amazon 
 
 ![A](./pics/a-b-test-amazon.jpg "a-b-test-amazon")
 
@@ -114,8 +114,17 @@ We can predict that the hypothesis is that amazon predicts that showing the e-bo
 
 We also see a signup button on the top of the right hand side page , which might also be an experiment to see if more users signup with they are shown a sign up prompt , and contrasting that with a base case where no prompt shows up .
 
-##### # Being Conducted at Booking.com
+##### # An Experiment Conducted at Booking.com
 
 ![A](./pics/a_b_experiment_booking.jpg "a-b-test at booking") 
 
 The hypothesis was that the spacing between the name of the hotel and the description might increase the sales , which it did over time ... A statistically significant jump from the previous sales .
+
+---
+
+#### # The ways by which users are segregated for running A/B Tests : 
+
+1. Cookies
+1. Account Type
+1. Email-Address
+1. Device I.D
