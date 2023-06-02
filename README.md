@@ -15,7 +15,7 @@ _Answer  : In A/B Tests we only change a single variable ( eg . Size of picture 
 
 >  Question : Why do we only change a single variable, why not change multiple things all at once and see how well that version with multiple changes did with respect to the Base ? 
 
-_Answer : The data is not concussive , if we track the effect multiple changes had in an experiment. So A/B tests only have a single change between the **Base** and the **Variant**.   
+_Answer :  if we track the effect multiple changes had in an experiment, then the data is more ambiguous . So an A/B tests only have a single change between the **Base** and the **Variant**.   
 In this way we can be sure the variation in data was only because of tha SINGLE change_
 
 `Eg : If we change the size of a `[ Buy Now ]` button , and if the sales went up by 25% , we can conclusively say that increasing the size of the button , in itself , had that effect on the sales`
