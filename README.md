@@ -74,6 +74,11 @@ There are `4 metrics` which are used to evaluate the results of an experiment yo
 
 _Well , not really if a lot of traffic is involved in the evaluation . For example , if for a button , we run an experiment in which we change it's color to  `yellow` and in another experiment running in parallel , we change the text to `nunito` , we will see , that on an average , what effect an individual experiment had on the metrics. And this is because , a  segment of the traffic would have seen just that 1 experiment change._
 
+> How do you make sure that a new feature released does not lower the quality of the software ? 
+
+When you do Feature RollOuts with **Non-Inferiority tests** , you keep an eye on how the  feature you introduced affected your existing product experience.
+
+Eg : If we decide that we expect the _customer tickets to increase less than 2%_ after a specific feature rollout ... and we observe that the rise in customer tickets is below that percentage , we can then rest assured that the new feature introduced did not cause our product to be inferior to the existing version .
 
 ---
 #### # Hypothesis generation and measurement
@@ -89,4 +94,19 @@ _Answer : **Based on [evidence] , we believe that if we change [proposed_change]
 
 
 Eg: Based on [ the increase in user signup, using oauth on various platforms] , we believe that if we change [ the signup process to an OAuth only signup process using GitHub login] for [ Developers ] , it will [ lead an increase in the number of signups ]. This would be good for our business , because an increase in [ user signups ] is an increase in [ website sales ] .
+
+---
+
+#### # Example of an A/B Test 
+
+##### # Being Conducted By Amazon 
+
+![A](./pics/a-b-test-amazon.jpg "a-b-test-amazon")
+
+
+In this , the Left hand side has the variant , and the right hand side has the base .
+
+We can predict that the hypothesis is that amazon predicts that showing the e-book collection at the signin page could increase the sales of that product over time , and for that they might be running an experiment .
+
+We also see a signup button on the top of the right hand side page , which might also be an experiment to see if more users signup with they are shown a sign up prompt , and contrasting that with a base case where no prompt shows up .
 
