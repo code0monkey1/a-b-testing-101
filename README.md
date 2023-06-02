@@ -80,6 +80,10 @@ When you do Feature RollOuts with **Non-Inferiority tests** , you keep an eye on
 
 Eg : If we decide that we expect the _customer tickets to increase less than 2%_ after a specific feature rollout ... and we observe that the rise in customer tickets is below that percentage , we can then rest assured that the new feature introduced did not cause our product to be inferior to the existing version .
 
+![Non inferiority test](./pics/non-inferiority-test-booking.jpg "non inferiority test by booking")
+
+In this experiment , when we introduce a new feature (printable receipt ) we made sure that the non - inferiority test confirmed that the percentage remained below our expected percentage (2 % in this case )
+
 ---
 #### # Hypothesis generation and measurement
 
@@ -110,3 +114,8 @@ We can predict that the hypothesis is that amazon predicts that showing the e-bo
 
 We also see a signup button on the top of the right hand side page , which might also be an experiment to see if more users signup with they are shown a sign up prompt , and contrasting that with a base case where no prompt shows up .
 
+##### # Being Conducted at Booking.com
+
+![A](./pics/a_b_experiment_booking.jpg "a-b-test at booking") 
+
+The hypothesis was that the spacing between the name of the hotel and the description might increase the sales , which it did over time ... A statistically significant jump from the previous sales .
